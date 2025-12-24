@@ -1,0 +1,25 @@
+{
+  "name": "browser-session-recorder",
+  "version": "1.0.0",
+  "description": "Human-like browser session recorder with FFmpeg integration",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "video": "node index-with-video.js",
+    "focused": "node index-focused.js",
+    "test": "node index.js --test"
+  },
+  "dependencies": {
+    "@ab6162/shy-mouse-playwright": "github:robin0403/shy-mouse-playwright",
+    "playwright": "^1.57.0"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "screen-recording",
+    "mouse-simulation"
+  ],
+  "author": "",
+  "license": "MIT"
+}
